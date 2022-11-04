@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Lato',sans-serif;
+    text-transform: uppercase;
+}
+
+html{
+    color: #555;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.header{
+    background-image:url("/Omnifood Contents/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#header{
+        background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(84, 84, 84, 0.73)),
+        url("Omnifood Contents/hero.jpg");
+    }
+
+.row{
+    max-width:1140;
+    margin:0 auto;
+}
+
+.row img{
+    height:100px;
+    width:auto;
+}
+
+.hero-text-box{
+    width:1140px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+    color:white;
+}
+
+a:link{ 
+    border-bottom: transparent;
+    color:white;
+    text-decoration: none;
+}
+
+a:link:hover{
+    border-bottom: 3px solid #cf6d17;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#fff;
+}
+
+.btn:hover,btn:active{
+    background-color: #cf6d17;
+}

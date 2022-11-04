@@ -1,0 +1,22 @@
+button{
+    height: 200px;
+    width: 30%;
+    background-color: gold;
+}
+h1{
+    color: gold;
+    font-size: 60px;
+    text-align: center;
+}
+body{
+    background-color:black;
+    font-size: 200px;
+}
+p{
+    background-color: gold;
+}
+h2{
+    color: gold;
+    font-size: 40px;
+    text-align: center;
+}

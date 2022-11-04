@@ -1,0 +1,61 @@
+.page{
+    height: 1000px;
+    width: fit-content;
+}
+.menu{
+    height: 200px;
+    background-color: white;
+      list-style-type: none;
+      text-align: center;
+      margin-top: 10px;
+      padding: 0;
+      
+  }
+  ul{
+    list-style-type: none;
+    display: inline-flex;
+  }
+  li{
+    margin: .05in;
+  }
+  .content{
+    float: left;
+    height: 1000px;
+  }
+.Links{
+    height: 100px;
+    background-color: black;
+}
+.copywrite{
+    color: white;
+    float: left;
+    margin-top: 45%;
+}
+.logos{
+    float: right;
+}
+p{
+    color: white;
+}
+.column {
+    float: left;
+    width: 33%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .pv1 {
+    position:absolute;;
+    text-align: center;
+    font-size: large;
+    margin-left: 800px;
+    margin-top: -500px;
+    display: inline-block;
+    block-size: 50px;
+
+}
+button{
+    background-color: aqua;
+}

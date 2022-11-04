@@ -1,0 +1,86 @@
+#header-hero-container {
+    min-height: 600px;
+    height: calc(100vh);
+    position: relative;
+}
+
+header {
+    background: transparent;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+#logo {
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 1.7rem;
+    font-weight: 800;
+    
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #f69314;
+    margin: 4px 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#close-flyout {
+    display: none;
+}
+
+header ul li a {
+    color: #f69314;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header ul.is-sticky li a {
+    color: #000;
+}
+body{
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(84, 84, 84, 0.73)),
+     url('/Portfolio/previpus.jpg') center center no-repeat;
+     color: #fff;
+}
+img{
+    height: 50px;
+    width: 75px;
+    border-radius: 10px;
+}
+li{
+    text-decoration: none;
+    text-align: center;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+form{
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,37 @@
+.menu{
+    height: 200px;
+    background-color: white;
+      list-style-type: none;
+      text-align: center;
+      margin-top: 10px;
+      padding: 0;
+  }
+ul{
+    list-style-type: none;
+    display: inline-flex;
+  }
+  li{
+    margin: .05in;
+  }
+  .logos{
+    float: right;
+}
+.Links{
+    height: 100px;
+    background-color: black;
+}
+p{
+    color: black;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img{
+    margin-left: 25%;
+}
